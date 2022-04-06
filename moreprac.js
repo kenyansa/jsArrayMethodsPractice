@@ -36,3 +36,16 @@ console.log(food.car); //shows undefined return value
 
 console.log(food["lanchi"]); //=>{ heavy: 'Oatmeal', light: 'uji', medium: 'mandazi' }
 console.log(food["lanchi"]["medium"]); //=>mandazi
+
+// bracket notation to dynamically set properties during the creation of a new Object
+const morningMeal = "breakfast";
+const middayMeal = "lunch";
+const eveningMeal = "dinner";
+
+const vyakula = {
+  [morningMeal]: "French toast",
+  [middayMeal]: "Personal pizza",
+  [eveningMeal]: "Fish and chips",
+};
+
+console.log(vyakula);
