@@ -49,3 +49,30 @@ const vyakula = {
 };
 
 console.log(vyakula);
+
+// objects methods: object.keys()
+const wednesdayMenu = {
+  cheesePlate: {
+    soft: "Brie",
+    semiSoft: "Fontina",
+    hard: "Provolone",
+  },
+  fries: "Sweet potato",
+  salad: "Southwestern",
+};
+
+console.log(Object.keys(wednesdayMenu));
+
+// objects methods: object.values()
+const dailyMenu = {
+  cheesePlate: {
+    soft: "Brie",
+    semiSoft: "Fontina",
+    hard: "Provolone",
+  },
+  fries: "Sweet potato",
+  salad: "Southwestern",
+};
+
+console.log(Object.values(dailyMenu));
+console.log(dailyMenu);
