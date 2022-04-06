@@ -113,3 +113,16 @@ menu.splice(1, 2, "Veggie Burger", "House Salad", "Teriyaki Tofu");
 
 console.log(menu);
 // Removed "Cheeseburger", & "Fish and Chips"
+
+// Using bracket notation to replace Elements
+
+const kadi = [
+  "Spades",
+  "Jack of Clubs",
+  "Nine of Clubs",
+  "Nine of Diamonds",
+  "Three of Hearts",
+];
+
+kadi[2] = "Ace of Clubs";
+console.log(kadi);
