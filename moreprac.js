@@ -32,3 +32,7 @@ const food = {
   chajio: "Scrambled eggs",
 };
 console.log(food.lanchi.light);
+console.log(food.car); //shows undefined return value
+
+console.log(food["lanchi"]); //=>{ heavy: 'Oatmeal', light: 'uji', medium: 'mandazi' }
+console.log(food["lanchi"]["medium"]); //=>mandazi
