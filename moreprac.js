@@ -3,3 +3,22 @@ const address = ["11 Broadway", "2nd Floor", "New York", "NY", "10004"];
 address[1] = "3rd Floor";
 
 console.log(address);
+
+// Objects with keys
+const meals = {
+  breakfast: "Avocado toast",
+  lunch: "tea and bread",
+  dinner: "Ngwaci",
+};
+
+console.log(meals.breakfast);
+console.log(meals.dinner);
+
+// demonstrating uniqueness of keys:
+const chakula = {
+  breakfast: "Avocado toast",
+  breakfast: "Oatmeal",
+  breakfast: "Scrambled eggs",
+};
+
+console.log(chakula);
