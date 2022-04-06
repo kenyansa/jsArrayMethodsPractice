@@ -100,3 +100,16 @@ const cards = [
 cards.splice(2, 1, "Ace of Clubs");
 
 console.log(cards);
+// Splice method to remove second and third element in an array and replace it with more elements
+const menu = [
+  "Jalapeno Poppers",
+  "Cheeseburger",
+  "Fish and Chips",
+  "French Fries",
+  "Onion Rings",
+];
+
+menu.splice(1, 2, "Veggie Burger", "House Salad", "Teriyaki Tofu");
+
+console.log(menu);
+// Removed "Cheeseburger", & "Fish and Chips"
