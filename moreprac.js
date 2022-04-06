@@ -20,5 +20,15 @@ const chakula = {
   breakfast: "Oatmeal",
   breakfast: "Scrambled eggs",
 };
-
 console.log(chakula);
+// accessing values insides objects' keys
+const food = {
+  chamcha: "chai",
+  lanchi: {
+      heavy:"Oatmeal",
+      light: "uji",
+      medium: "mandazi", 
+  },
+  chajio: "Scrambled eggs",
+};
+console.log(food.lanchi.light);
