@@ -126,3 +126,25 @@ const kadi = [
 
 kadi[2] = "Ace of Clubs";
 console.log(kadi);
+
+// Splicing and Spreading
+const mapishi = [
+  "kuku",
+  "ugali",
+  "pilau",
+  "mayai",
+  "viazi",
+];
+
+const newMapishi = [
+  ...mapishi.splice(0, 1),
+  "Veggie Burger",
+  "House Salad",
+  "Teriyaki Tofu",
+  ...menu.splice(3),
+];
+
+console.log(mapishi);
+
+
+console.log(newMapishi);
